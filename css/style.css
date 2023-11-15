@@ -1,0 +1,127 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: rgb(14, 11, 7);
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+header {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    width: 600px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+h1{
+    font-family: 'Fira Sans', sans-serif;
+    color: #183153;
+}
+h2{
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.p-error{
+    align-self: flex-start;
+    margin-left: 100px;
+}
+
+
+
+h1 .icon-blue{
+    fill: #183153;
+}
+.form-task input{
+    height: 40px;
+    width: 300px;
+    border-radius: 5px;
+    border-color: #183153;
+}
+
+.form-task button{
+    height: 40px;
+    padding-inline: 10px;
+    background-color: #FFD43B;
+    color: #183153;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+main{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    width: 600px;
+    background-color: white;
+    border-radius: 5px;
+    padding-inline: 100px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+}
+
+hr{
+    border-color: #183153;
+    border-width: 1px;
+}
+
+.error-message{
+    color: red;
+}
+
+.ico-delete{
+    fill: darkred;
+    width: 20px;
+    height: 20px;
+}
+
+.ico-completed{
+    fill: darkgoldenrod;
+    width: 20px;
+    height: 20px;
+}
+
+.container-task__task-list{
+    margin-top: 5px;
+    display: grid;
+    grid-template-columns: 1em 70% 1em 1em;
+    gap: 20px;
+    align-items: center;
+}
+
+#btn-ico-valide{
+    color: orange;
+    font-size: 18px;
+    width: 20px;
+    height: 20px;
+}
+#btn-ico-delete{
+    font-size: 18px;
+    color: red;
+    width: 20px;
+    height: 20px;
+}
+
+.police-span{
+    font-family: 'IM Fell DW Pica', serif;;
+}
+
+.num_span{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container-task{
+    margin-top: 30px;
+    height: 300px;
+    overflow: auto;
+}
